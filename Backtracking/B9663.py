@@ -22,5 +22,4 @@ def solve(i):
 solve(0)
 print(ans)
 
-
 # 출처: https://rebas.kr/761
