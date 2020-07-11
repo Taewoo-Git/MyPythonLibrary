@@ -19,10 +19,27 @@ Algorithm problem solving by python. <br/>
 
 <br/>
 <pre>
-pop(): 스택에서 가장 위에 있는 항목을 제거.
-push(item): item 하나를 스택의 가장 윗 부분에 추가.
-peek() 또는 top(): 스택의 가장 위에 있는 항목을 반환.
-isEmpty(): 스택이 비어 있을 때에 true를 반환.
+push: 데이터를 스택의 가장 윗 부분에 삽입.
+pop: 스택에서 가장 위에 있는 데이터를 삭제.
+peek, top: 스택의 가장 위에 있는 데이터를 삭제하지 않고 반환.
+isEmpty: 스택이 비어 있을 때 true를 반환.
+</pre>
+
+<hr/>
+
+### 큐(Queue)란?
+큐는 스택과 마찬가지로 일종의 리스트. <br/>
+데이터 삽입은 한쪽 끝에서, 삭제는 반대쪽 끝에서만 수행하는 선입선출(FIFO)방식. <br/>
+삽입이 일어나는 쪽을 rear, 삭제가 일어나는 쪽을 front라고 부름.
+
+<img src='https://user-images.githubusercontent.com/59400030/87432263-b8cf4300-c622-11ea-987e-89349099757e.png' width='50%'/>
+
+<br/>
+<pre>
+insert, enqueue, offer, push: queue의 rear에 새로운 데이터를 삽입.
+remove, dequeue, poll, pop: queue의 front에 있는 데이터를 삭제.
+peek, element, front: 큐의 front에 있는 데이터를 삭제하지 않고 반환.
+isEmpty: 큐가 비어 있을 때 true를 반환.
 </pre>
 
 <hr/>
